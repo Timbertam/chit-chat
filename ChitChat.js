@@ -18,5 +18,5 @@ function hideImage(elemId) {
 }
 
 function tellToHover() {
-  alert("Hover over the button for the image to appear, no need to press it!");
+  alert("I know it's a button... but it can't be pressed because I don't know what feature I'd give a button that already does something when you look at it. Look but don't touch, I guess! Sorry, my amazing brother ¯\_(ツ)_/¯");
 }
