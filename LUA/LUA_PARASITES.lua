@@ -1,0 +1,117 @@
+//Scape & Run Parasites, the best fucking mod ever made... SRP > Chit-Chat
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "stage1") or (msg == "one") or (msg == "phase1")
+S_StartSound(mo, sfx_dsone)
+S_StopMusic(mo)
+P_FadeLight(65535, 200, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "stage2") or (msg == "two") or (msg == "phase2")
+S_StartSound(mo, sfx_dstwo)
+P_SetSkyboxMobj(mo)
+S_StopMusic(mo)
+P_FadeLight(65535, 180, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "stage3") or (msg == "three") or (msg == "phase3")
+S_StartSound(mo, sfx_dsthre)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(18)
+S_StopMusic(mo)
+P_SwitchWeather(4)
+P_DoPlayerPain(player, mo)
+P_FadeLight(65535, 170, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "stage4") or (msg == "four") or (msg == "phase4")
+S_StartSound(mo, sfx_dsfour)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(12)
+S_StopMusic(mo)
+P_SwitchWeather(5)
+P_FadeLight(65535, 160, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "stage5") or (msg == "five") or (msg == "phase5")
+S_StartSound(mo, sfx_dsfive)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(20)
+S_StopMusic(mo)
+P_SwitchWeather(5)
+P_FadeLight(65535, 150, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "stage6") or (msg == "six") or (msg == "phase6")
+S_StartSound(mo, sfx_dssix)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6297)
+S_StopMusic(mo)
+P_SwitchWeather(5)
+P_DoPlayerPain(player, mo)
+P_FadeLight(65535, 140, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "stage7") or (msg == "seven") or (msg == "phase7")
+S_StartSound(mo, sfx_dsseve)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6298)
+S_StopMusic(mo)
+P_SwitchWeather(5)
+P_DoPlayerPain(player, mo)
+P_FadeLight(65535, 130, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "stage8") or (msg == "eight") or (msg == "phase8")
+S_StartSound(mo, sfx_dsocho)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(34)
+S_StopMusic(mo)
+P_SwitchWeather(5)
+P_DoPlayerPain(player, mo)
+P_FadeLight(65535, 120, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "stage9") or (msg == "nine") or (msg == "phase9")
+S_StopMusic(mo)
+S_StartSound(mo, sfx_dsnine)
+P_DoPlayerPain(player, mo)
+P_StartQuake(FRACUNIT*99, 40)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "stage10") or (msg == "ten") or (msg == "phase10")
+S_StartSound(mo, sfx_dsdiez)
+S_StopMusic(mo)
+P_DoPlayerPain(player, mo)
+P_StartQuake(FRACUNIT*99, 80)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "node")
+S_StartSound(mo, sfx_dsnode)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(34)
+S_StopMusic(mo)
+P_SwitchWeather(5)
+P_DoPlayerPain(player, mo)
+P_FadeLight(65535, 110, 2)
+end
+end)

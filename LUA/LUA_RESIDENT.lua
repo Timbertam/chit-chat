@@ -1,0 +1,22 @@
+//Resident Evil! (Whisper Themes not included lmao)
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "serenity")
+S_StartSound(mo, sfx_kc6d)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6)
+COM_BufAddText(mo,"tunes SERENI")
+P_SwitchWeather(4)
+P_FadeLight(65535, 150, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "saferoom")
+S_StartSound(mo, sfx_kc6d)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(64)
+COM_BufAddText(mo,"tunes SAFERO")
+P_SwitchWeather(4)
+P_FadeLight(65535, 150, 2)
+end
+end)

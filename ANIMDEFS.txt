@@ -1,0 +1,33 @@
+TEXTURE	SKY4033	Range	SKY4048	Tics 3 //Static .EXE BG! [15F]
+TEXTURE	SKY4049	Range	SKY4072	Tics 2 //Brutal Doom's Hell BG! [23F]
+TEXTURE	SKY4073	Range	SKY4076	Tics 8 //Green Hill Zone [4F]
+TEXTURE	SKY4077	Range	SKY4111	Tics 8 //Sonic Rush City BG! (Cha) [34F]
+TEXTURE	SKY4113	Range	SKY4114	Tics 8 //Sonic.Exe BLOOD Hill Zone [2F] (FUAAA)
+TEXTURE	SKY4115	Range	SKY4118	Tics 8 //The Legendary F-City... [4F] (Wow! Asi se usan 4 Frames!)
+TEXTURE	SKY4119	Range	SKY4131	Tics 8 //.Flow Rust-Terminal background!
+TEXTURE	SKY4132	Range	SKY4134	Tics 8 //LunaGame Animated Stars [3F]
+TEXTURE	SKY4135	Range	SKY4138	Tics 8 //LunaGame Red Static [4F]
+TEXTURE	SKY4139	Range	SKY4142	Tics 8 //LunaGame Gray Static [4F]
+TEXTURE	SKY4143	Range	SKY4152	Tics 8 //This is the Feral Skinners Doom 64 BG. [9F]
+TEXTURE	SKY4153	Range	SKY4184	Tics 4 //Angel Island Fire Animation! [31F]
+TEXTURE	SKY4185	Range	SKY4190	Tics 33 //Wonderchild/Disco Switching BG! [5F]
+TEXTURE	SKY4191	Range	SKY4195	Tics 3 //Alternative Fire BG! Red-like? [4F], medio croto..
+TEXTURE	SKY4512	Range	SKY4522	Tics 8 //Cut Surge BG! Maybe repurposeable? [10F]
+TEXTURE	SKY4523	Range	SKY4622	Tics 2 //Doom 64's BEAUTIFUL fire animation. [99F]
+TEXTURE	SKY4623	Range	SKY4624	Tics 12 //Homestuck's LOTHAC.
+TEXTURE	SKY4625	Range	SKY4627	Tics 8 //LEWD LEAF LANDDD YESSS [3F]
+TEXTURE	SKY8001	Range	SKY8003	Tics 8 //Mario Underground Caves BG! [3F]
+TEXTURE	SKY8004	Range	SKY8016 Tics 8 //Trippy AF ULDC BG! Like Sonic CD's falopa BG! [12F]
+TEXTURE SKY8018 Range   SKY8049 Tics 4 //Doom 2 in Rural Only's Red Sky [32F]
+TEXTURE SKY8050 Range   SKY8081 Tics 4 //Doom 2 in City Only's "Life" Sky [32F]
+TEXTURE SKY8082 Range   SKY8113 Tics 3 //Doom 2 in City Only's "Stars" Sky [32F]
+TEXTURE SKY8115 Range   SKY8146 Tics 3 //Doom 2 in City Only's "Overgrown" Sky [32F]
+TEXTURE SKY8147 Range   SKY8148 Tics 33 //Doom "Flesh" Sky [2F]
+TEXTURE SKY8149 Range   SKY8180 Tics 3 //Doom 2 in City Only's "F-D" Sky [32F]
+TEXTURE	SKY8181	Range	SKY8184 Tics 8 //Strange Sonic CD-Mario BG (?) Waterfall BG... [4F]
+TEXTURE	SKY8185	Range	SKY8192 Tics 6 //Edited BOS White Flames [8F]
+TEXTURE	SKY8193	Range	SKY8252 Tics 2 //Doom 2 in City Only's "EYES" Sky [60F]
+TEXTURE	SKY8253	Range	SKY8284 Tics 2 //Doom 2 in City Only's "SANDTROPOLIS" Sky [32F]
+TEXTURE	SKY8285	Range	SKY8300 Tics 2 //Doom 2 in City Only's "DAY" Sky [16F]
+TEXTURE	SKY8301	Range	SKY8332 Tics 2 //Doom 2 in Rural Only's "NIGHT" Sky [32F]
+TEXTURE	SKY8333	Range	SKY8364 Tics 2 //Doom 2 in Rural Only's "STARLO SUNSET" Sky [32F]

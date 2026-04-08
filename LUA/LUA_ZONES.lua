@@ -1,0 +1,90 @@
+//Sonic Zones! Most of these will be vanilla... but look at the bottom! You may need Cyberdine!
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "ANGRY")
+S_StartSound(mo, sfx_spsmsh)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6297)
+P_ElementalFire(player,true)
+COM_BufAddText(mo,"tunes VSAGZ")
+P_SwitchWeather(4)
+P_FadeLight(65535, 220, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "ghz")
+S_StartSound(mo, sfx_kc6d)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(4073)
+COM_BufAddText(mo,"tunes GHZ")
+P_SwitchWeather(0)
+P_FadeLight(65535, 220, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "thz")
+S_StartSound(mo, sfx_kc6d)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6338)
+COM_BufAddText(mo,"tunes THZ1")
+P_SwitchWeather(0)
+P_FadeLight(65535, 220, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "THZ")
+S_StartSound(mo, sfx_kc6d)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6339)
+COM_BufAddText(mo,"tunes THZ2")
+P_SwitchWeather(0)
+P_FadeLight(65535, 200, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "dcz")
+S_StartSound(mo, sfx_kc6d)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6404)
+COM_BufAddText(mo,"tunes DCZ")
+P_SwitchWeather(0)
+P_FadeLight(65535, 160, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "rvz")
+S_StartSound(mo, sfx_kc6d)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6407)
+COM_BufAddText(mo,"tunes RVZ1")
+P_SwitchWeather(0)
+P_FadeLight(65535, 160, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "RVZ")
+S_StartSound(mo, sfx_kc6d)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6408)
+COM_BufAddText(mo,"tunes RVZ2")
+P_SwitchWeather(0)
+P_FadeLight(65535, 160, 2)
+end
+end)
+
+//CYBERDINE REALM EXCLUSIVE STUFF! LOAD THE MOD BEFORE USING THESE!
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "spz")
+S_StartSound(mo, sfx_kc6d)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6251)
+COM_BufAddText(mo,"tunes MAPN1M")
+P_SwitchWeather(0)
+P_FadeLight(65535, 200, 2)
+end
+end)

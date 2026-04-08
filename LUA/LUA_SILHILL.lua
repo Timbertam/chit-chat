@@ -1,0 +1,33 @@
+//Silent Hill (Sonic's Theme is HIS!! NOT HERE!! NOOOO!!!)
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "sanctuary")
+S_StartSound(mo, sfx_kc4b)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6290)
+COM_BufAddText(mo,"tunes SANCTU")
+P_SwitchWeather(4)
+P_FadeLight(65535, 210, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "sanctuarysand")
+S_StartSound(mo, sfx_kc4b)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6286)
+COM_BufAddText(mo,"tunes SANCTU")
+P_SwitchWeather(4)
+P_FadeLight(65535, 210, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "cafe")
+S_StartSound(mo, sfx_kc4b)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6290)
+COM_BufAddText(mo,"tunes CAFE")
+P_SwitchWeather(0)
+P_FadeLight(65535, 180, 2)
+end
+end)
