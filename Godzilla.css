@@ -1,5 +1,5 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Tiny5';
     color: white;
     font-size: 28px;
     background-image: url(Textures/Skies/SKY6222.png);
@@ -13,7 +13,7 @@ table {
 }
 
 td{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Tiny5';
     border: 2px solid #ddd;
     padding: 10px;
     color: white;
@@ -31,25 +31,25 @@ tr:hover {
 
 th{
     border: 2px solid #ddd;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Tiny5';
     font-size: 48px;
-    background-color: green;
+    background-color: black;
     color: white;
 }
 
 button:hover {
-    background: green;
+    background: red;
     transform: scale(1.1);
 }
 
 button{
-    background-image: linear-gradient(to bottom, lime, green);
+    background-image: linear-gradient(to bottom, red, black);
     height: 48px;
     min-width: 76px;
     transition: 0.3s;
     padding: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Tiny5';
     font-size: 28px;
-    background-color: green;
+    background-color: red;
     color: white;
 }

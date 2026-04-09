@@ -1,0 +1,55 @@
+body{
+    font-family: 'Micro 5';
+    color: gold;
+    font-size: 28px;
+    background-image: url(Textures/Assets/molly.gif);
+    background-size: cover;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+td{
+    font-family: 'Micro 5';
+    border: 2px solid #ddd;
+    padding: 10px;
+    color: gold;
+    font-size: 28px;
+}
+
+tr {
+    border: 2px solid #ddd;
+}
+
+tr:hover {
+    transition: 0.25s;
+    background-color: #626a64;
+}
+
+th{
+    border: 2px solid #ddd;
+    font-family: 'Micro 5';
+    font-size: 48px;
+    background-color: #4e8e2c;
+    color: rgb(253, 226, 77);
+}
+
+button:hover {
+    background: lime;
+    transform: scale(1.1);
+}
+
+button{
+    background-image: linear-gradient(to bottom, #87c369, #4e8e2c);
+    height: 48px;
+    min-width: 76px;
+    transition: 0.3s;
+    padding: 10px;
+    font-family: 'Micro 5';
+    font-size: 28px;
+    background-color: lime;
+    color: gold;
+}
