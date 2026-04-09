@@ -1,0 +1,11 @@
+td{
+    border: 2px solid #ddd;padding: 20px;color: cyan;
+}
+
+th{
+    font-family: 'Pixelify Sans';font-size: 22px;background-color: blue;color: mediumaquamarine;
+}
+
+body{
+    background-image: url(https://wiki.srb2.org/w/images/thumb/f/f3/Skies_SKY9.png/240px-Skies_SKY9.png);
+}
