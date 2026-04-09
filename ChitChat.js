@@ -5,7 +5,7 @@ function showImage(elemId, imgSrc) {
   const popImage = new Image();
   popImage.src = imgSrc;
   popImage.style.position = "absolute";
-  popImage.style.zIndex = "1";
+  popImage.style.zIndex = "absolute";
   elem.appendChild(popImage);
 }
 function hideImage(elemId) {
