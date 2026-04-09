@@ -1,16 +1,38 @@
-td{
-    border: 2px solid #ddd;padding: 20px;color: cyan;
+body {
+    background-image: url(Textures/Assets/stars.gif);
+    background-size: cover;
+    background-repeat: repeat;
 }
 
-th{
-    font-family: 'Pixelify Sans';font-size: 22px;background-color: blue;color: cyan;
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
 }
 
-body{
-    background-image: url(https://wiki.srb2.org/w/images/thumb/f/f3/Skies_SKY9.png/240px-Skies_SKY9.png);
+td {
+    font-family: 'Jersey 15';
+    border: 2px solid #ddd;
+    padding: 10px;
+    color: cyan;
+    font-size: 28px;
 }
 
-button {
+tr {
+    border: 2px solid #ddd;
+}
+
+tr:hover {
+    transition: 0.25s;
+    background-color: indigo;
+}
+
+th {
+    border: 2px solid #ddd;
+    font-family: 'Jersey 15';
+    font-size: 48px;
+    background-color: blueviolet;
+    color: cyan;
 }
 
 button:hover {
@@ -18,11 +40,14 @@ button:hover {
     transform: scale(1.1);
 }
 
-button{
+button {
     background-image: linear-gradient(to bottom, cyan, magenta);
-    height: 48px;
     min-width: 76px;
     transition: 0.3s;
-    padding: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 14px;background-color: blueviolet;color: cyan;
+    padding-right: 10px;
+    padding: 5px;
+    font-family: 'Jersey 15';
+    font-size: 28px;
+    background-color: blueviolet;
+    color: black;
 }

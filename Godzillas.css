@@ -1,0 +1,55 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 28px;
+    background-image: url(Textures/Skies/SKY6222.png);
+    background-size: cover;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+td{
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid #ddd;
+    padding: 10px;
+    color: white;
+    font-size: 28px;
+}
+
+tr {
+    border: 2px solid #ddd;
+}
+
+tr:hover {
+    transition: 0.25s;
+    background-color: darkslategray;
+}
+
+th{
+    border: 2px solid #ddd;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    background-color: green;
+    color: white;
+}
+
+button:hover {
+    background: green;
+    transform: scale(1.1);
+}
+
+button{
+    background-image: linear-gradient(to bottom, lime, green);
+    height: 48px;
+    min-width: 76px;
+    transition: 0.3s;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    background-color: green;
+    color: white;
+}
