@@ -3,6 +3,7 @@ body{
     color: rgb(236, 197, 152);
     font-size: 28px;
     background-image: url(Textures/Assets/chrysalis.gif);
+    background-size: cover;
 }
 
 table {

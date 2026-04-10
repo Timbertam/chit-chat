@@ -27,7 +27,7 @@ tr {
 
 tr:hover {
     transition: 0.25s;
-    background-color: darkslategray;
+    background-color: #c43a9e;
 }
 
 th {
