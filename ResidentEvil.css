@@ -1,9 +1,8 @@
 body{
-    font-family: 'Cabin Sketch';
-    color: white;
+    font-family: 'Special Elite';
+    color: rgb(236, 197, 152);
     font-size: 28px;
-    background-image: url(Textures/Assets/360px-Skies_SKY302.png);
-    background-size: cover;
+    background-image: url(Textures/Assets/chrysalis.gif);
 }
 
 table {
@@ -13,7 +12,7 @@ table {
 }
 
 td{
-    font-family: 'Cabin Sketch';
+    font-family: 'Special Elite';
     border: 2px solid #ddd;
     padding: 10px;
     color: white;
@@ -31,25 +30,30 @@ tr:hover {
 
 th{
     border: 2px solid #ddd;
-    font-family: 'Cabin Sketch';
+    font-family: 'Special Elite';
     font-size: 48px;
-    background-color: green;
+    padding: 10px;
+    background-color: gray;
     color: white;
 }
 
 button:hover {
-    background: green;
+    background: darkslateblue;
     transform: scale(1.1);
 }
 
 button{
-    background-image: linear-gradient(to bottom, lime, green);
+    background-image: linear-gradient(to bottom, darkslategray, silver);
     height: 48px;
     min-width: 76px;
     transition: 0.3s;
     padding: 10px;
-    font-family: 'Cabin Sketch';
+    font-family: 'Special Elite';
     font-size: 28px;
-    background-color: green;
+    background-color: darkslateblue;
     color: white;
+}
+
+h1 {
+    text-align: center;
 }

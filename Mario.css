@@ -38,18 +38,18 @@ th{
 }
 
 button:hover {
-    background: lime;
+    background: goldenrod;
     transform: scale(1.1);
 }
 
 button{
-    background-image: linear-gradient(to bottom, #87c369, #4e8e2c);
+    background-image: linear-gradient(to bottom, red, rgb(95, 0, 0));
     height: 48px;
     min-width: 76px;
     transition: 0.3s;
     padding: 10px;
     font-family: 'Sixtyfour';
     font-size: 16px;
-    background-color: lime;
+    background-color: goldenrod;
     color: gold;
 }

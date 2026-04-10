@@ -2,7 +2,7 @@ body{
     font-family: 'Tiny5';
     color: white;
     font-size: 28px;
-    background-image: url(Textures/Skies/SKY6222.png);
+    background-image: url(Textures/Assets/SKY6222.png);
     background-size: cover;
 }
 
@@ -12,7 +12,7 @@ table {
   margin: 20px auto;
 }
 
-td{
+td {
     font-family: 'Tiny5';
     border: 2px solid #ddd;
     padding: 10px;
@@ -29,12 +29,13 @@ tr:hover {
     background-color: darkslategray;
 }
 
-th{
+th {
     border: 2px solid #ddd;
     font-family: 'Tiny5';
     font-size: 48px;
     background-color: black;
     color: white;
+    padding: 10px
 }
 
 button:hover {

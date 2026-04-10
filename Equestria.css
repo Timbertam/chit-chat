@@ -1,0 +1,63 @@
+body{
+    font-family: 'Emilys Candy';
+    color: rgb(236, 197, 152);
+    font-size: 28px;
+    background-image: url(Textures/Assets/SKY6251.png);
+    background-size: 300px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+td {
+    font-family: 'Emilys Candy';
+    border: 2px solid #ddd;
+    padding: 10px;
+    color: white;
+    font-size: 28px;
+    text-shadow: 2px 2px 3px#00aac6; 
+}
+
+tr {
+    border: 2px solid #ddd;
+}
+
+tr:hover {
+    transition: 0.25s;
+    background-color: darkslategray;
+}
+
+th {
+    border: 2px solid #ddd;
+    font-family: 'Emilys Candy';
+    font-size: 48px;
+    text-shadow: 2px 2px 3px#00aac6; 
+    padding: 10px;
+    background-color: #390e5f;
+    color: white;
+}
+
+button:hover {
+    background: #e5108c;
+    transform: scale(1.1);
+}
+
+button{
+    background-image: linear-gradient(to bottom, #843c92, #e864a0);
+    height: 48px;
+    min-width: 76px;
+    transition: 0.3s;
+    padding: 10px;
+    font-family: 'Emilys Candy';
+    font-size: 28px;
+    background-color: #e5108c;
+    color: white;
+    text-shadow: 2px 2px 3px#00aac6; 
+}
+
+h1 {
+    text-align: center;
+}

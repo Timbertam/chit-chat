@@ -33,6 +33,7 @@ th {
     font-size: 48px;
     background-color: blueviolet;
     color: cyan;
+    padding: 10px;
 }
 
 button:hover {

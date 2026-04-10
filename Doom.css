@@ -10,7 +10,7 @@ table {
   margin: 20px auto;
 }
 
-td{
+td {
     font-family: 'Tiny5';
     border: 2px solid #ddd;
     padding: 10px;
@@ -27,12 +27,13 @@ tr:hover {
     background-color: slateblue;
 }
 
-th{
+th {
     border: 2px solid #ddd;
     font-family: 'Tiny5';
     font-size: 48px;
     background-color: blue;
     color: gold;
+    padding: 10px;
 }
 
 button:hover {
