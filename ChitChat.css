@@ -1,3 +1,15 @@
+@media only screen and (max-width: 600px) {
+  /* Responsive styles for small screens */
+  table {
+    width: 100%;
+  }
+  th,
+  td {
+    display: block;
+    width: 100%;
+  }
+}
+
 body {
     background-image: url(Textures/Assets/stars.gif);
     background-size: cover;
@@ -51,4 +63,10 @@ button {
     font-size: 28px;
     background-color: blueviolet;
     color: black;
+}#follower { 
+  position: fixed; 
+  width: 100px; 
+  pointer-events: none; /* Prevents the image from blocking mouse events */
+  display: none; 
 }
+

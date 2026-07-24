@@ -131,10 +131,10 @@ addHook("PlayerMsg", function(player, msgtype, target, msg)
 if (msg == "snownight")
 S_StartSound(mo, sfx_kc6d)
 P_SetSkyboxMobj(mo)
-P_SetupLevelSky(12)
+P_SetupLevelSky(20)
 COM_BufAddText(mo,"tunes SNOW")
 P_SwitchWeather(2)
-P_FadeLight(65535, 160, 2)
+P_FadeLight(65535, 140, 2)
 end
 end)
 
@@ -205,7 +205,7 @@ P_SwitchWeather(1)
 P_FadeLight(65535, 120, 2)
 end
 end)
-
+--[[ 
 addHook("PlayerMsg", function(player, msgtype, target, msg)
 if (msg == "sunset")
 print("Variants: legacy")
@@ -217,9 +217,9 @@ P_SwitchWeather(0)
 P_FadeLight(65535, 200, 2)
 end
 end)
-
+ ]]
 addHook("PlayerMsg", function(player, msgtype, target, msg)
-if (msg == "sunsetlegacy")
+if (msg == "sunset")
 S_StartSound(mo, sfx_kc6d)
 P_SetSkyboxMobj(mo)
 P_SetupLevelSky(159)
@@ -230,7 +230,7 @@ end
 end)
 
 addHook("PlayerMsg", function(player, msgtype, target, msg)
-if (msg == "day")
+if (msg == "daysun")
 print("Variants: clouds,rocky")
 S_StartSound(mo, sfx_kc6d)
 P_SetSkyboxMobj(mo)
@@ -242,7 +242,7 @@ end
 end)
 
 addHook("PlayerMsg", function(player, msgtype, target, msg)
-if (msg == "dayclouds")
+if (msg == "day")
 S_StartSound(mo, sfx_kc6d)
 P_SetSkyboxMobj(mo)
 P_SetupLevelSky(6216)

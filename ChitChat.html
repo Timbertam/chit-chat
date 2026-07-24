@@ -1,14 +1,13 @@
 <!--  TEMPLATE FOR ONE OF THE ONE BILLION ENTRIES BELOW! HERE WE GO :D
   <tr>
-  <tr>
     <td>chit</td>
     <td>
       <button
-        id="imageLarge"
-        onmouseover="showImage('imageLarge','SKY.THUMBNAIL')"
-        onmouseout="hideImage('imageLarge')"
+
+        onmouseover="showImage(this,'')"
+        onmouseout="hideImage(this)"
         onclick="tellToHover()">
-        SKIES.LMP
+        [D]
       </button></td>
     <td>SONG.MP3</td>
     <td>ORIGIN</td>
@@ -24,8 +23,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="ChitChat.css">
+  <link rel="stylesheet" href="https://datatables.net"/>
 </head>
-<script src="ChitChat.js" type="text/javascript"></script>
+<body>
+<div class="content">
 <table>
   <!-- START OF THIS TABLE -->
   <tr>
@@ -34,28 +35,28 @@
     <th>Song</th>
     <th>Origin</th>
   </tr>
+  </thead>
+  <script src="ChitChat.js" type="text/javascript"></script>
   <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tbody>
   <tr>
     <td>day</td>
     <td>
       <button
-        id="imageLarge"
-        onmouseover="showImage('imageLarge','Textures/Assets/480px-Skies_SKY1029.png')"
-        onmouseout="hideImage('imageLarge')"
+        onmouseover="showImage(this,'Textures/Assets/480px-Skies_SKY1029.png')"
+        onmouseout="hideImage(this)"
         onclick="tellToHover()">
         [D]
       </button>
       <button
-        id="imageLarge"
-        onmouseover="showImage('imageLarge','Textures/Assets/480px-Skies_SKY16.png')"
-        onmouseout="hideImage('imageLarge')"
+        onmouseover="showImage(this,'Textures/Assets/480px-Skies_SKY16.png')"
+        onmouseout="hideImage(this)"
         onclick="tellToHover()">
         rocky
       </button>
       <button
-        id="imageLarge"
-        onmouseover="showImage('imageLarge','Textures/Animated/D2ICO/SHINYDAY/SKY8285.png')"
-        onmouseout="hideImage('imageLarge')"
+        onmouseover="showImage(this,'Textures/Assets/sunny.gif')"
+        onmouseout="hideImage(this)"
         onclick="tellToHover()">
         sun
       </button></td>
@@ -70,9 +71,8 @@ This browser does not support the audio element wahhh :C
     <td>sunset</td>
     <td>
       <button
-        id="imageLarge"
-        onmouseover="showImage('imageLarge','Textures/Assets/480px-Skies_SKY159.png')"
-        onmouseout="hideImage('imageLarge')"
+        onmouseover="showImage(this,'Textures/Assets/480px-Skies_SKY159.png')"
+        onmouseout="hideImage(this)"
         onclick="tellToHover()">
         [D]
       </button></td>
@@ -86,9 +86,8 @@ This browser does not support the audio element :C
     <td>night</td>
     <td>
       <button
-        id="imageLarge"
-        onmouseover="showImage('imageLarge','Textures/Animated/D2IRO/NIGHT/SKY8301.png')"
-        onmouseout="hideImage('imageLarge')"
+        onmouseover="showImage(this,'Textures/Animated/D2IRO/NIGHT/SKY8301.png')"
+        onmouseout="hideImage(this)"
         onclick="tellToHover()">
         [D]
       </button></td>
@@ -100,13 +99,38 @@ This browser does not support the audio element :C
   </tr>
   <!-- START OF THIS CHIT-CHAT ENTRY -->
   <tr>
+    <td>midnight</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_sky98.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td>SONG.MP3</td>
+    <td>ORIGIN</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>MIDNIGHT</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY99.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td>SONG.MP3</td>
+    <td>ORIGIN</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
   <tr>
     <td>nuke</td>
     <td>
       <button
-        id="imageLarge"
-        onmouseover="showImage('imageLarge','Textures/Skies/SKY6351.png')"
-        onmouseout="hideImage('imageLarge')"
+        onmouseover="showImage(this,'Textures/Skies/SKY6351.png')"
+        onmouseout="hideImage(this)"
         onclick="tellToHover()">
         [D]
       </button></td>
@@ -121,16 +145,14 @@ This browser does not support the audio element :C
     <td>rain</td>
     <td>
       <button
-        id="imageLarge"
-        onmouseover="showImage('imageLarge','Textures/Assets/Skies_SKY12.png')"
-        onmouseout="hideImage('imageLarge')"
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY12.png')"
+        onmouseout="hideImage(this)"
         onclick="tellToHover()">
         [D]
       </button>
       <button
-        id="imageLarge"
-        onmouseover="showImage('imageLarge','Textures/Assets/Skies_SKY20.png')"
-        onmouseout="hideImage('imageLarge')"
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY20.png')"
+        onmouseout="hideImage(this)"
         onclick="tellToHover()">
         night
       </button></td>
@@ -140,6 +162,122 @@ This browser does not support the audio element :C
 </audio></td>
     <td>Sonic CD</td>
   </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>downpour</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY20.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td>SONG.MP3</td>
+    <td>Sonic Adventure 2</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>storm</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY20.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY20.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        night
+      </button></td>
+    <td>SONG.MP3</td>
+    <td>ORIGIN</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>snow</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/SKY55.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY20.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        night
+      </button></td>
+    <td>SONG.MP3</td>
+    <td>ORIGIN</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>blizzard</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/SKY18.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY20.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        night
+      </button></td>
+    <td>SONG.MP3</td>
+    <td>ORIGIN</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>christmas</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/SKY30.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6278.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        night
+      </button></td>
+    <td>SONG.MP3</td>
+    <td>ORIGIN</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>drama</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6288.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td>SONG.MP3</td>
+    <td>SRB2</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td></td>
+    <td>
+      <button
+        onmouseover="showImage(this,'')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td>SONG.MP3</td>
+    <td>ORIGIN</td>
+  </tr>
 </table>
+</div>
 </body>
 </html>

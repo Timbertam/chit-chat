@@ -1,22 +1,41 @@
-function showImage(elemId, imgSrc) {
-  console.log("Mouse is over text");
-  console.log("\tElemId:" + elemId + " Image Source:" + imgSrc);
-  const elem = document.getElementById(elemId);
-  const popImage = new Image();
-  popImage.src = imgSrc;
-  popImage.style.position = "absolute";
-  popImage.style.zIndex = "absolute";
-  elem.appendChild(popImage);
+let currentFollower = null;
+
+function showImage(buttonElem, imgSrc) {
+  if (currentFollower) {
+    currentFollower.remove();
+  }
+
+  currentFollower = new Image();
+  currentFollower.src = imgSrc;
+  
+  currentFollower.style.position = "fixed"; 
+  currentFollower.style.zIndex = "1000";
+  currentFollower.style.maxHeight = "512px";
+  currentFollower.style.maxWidth = "512px";
+  currentFollower.style.pointerEvents = "none";
+  
+  document.body.appendChild(currentFollower);
+
+  const e = window.event;
+  if (e) {
+    currentFollower.style.left = `${e.clientX + 15}px`;
+    currentFollower.style.top = `${e.clientY + 15}px`;
+  }
+
+  buttonElem.addEventListener('mousemove', moveImage);
 }
-function hideImage(elemId) {
-  console.log("Mouse is off text");
-  console.log("\tElemId:" + elemId);
-  const elem = document.getElementById(elemId);
-  while (elem.childElementCount > 0) {
-    elem.removeChild(elem.lastChild);
+
+function moveImage(e) {
+  if (currentFollower) {
+    currentFollower.style.left = `${e.clientX + 15}px`;
+    currentFollower.style.top = `${e.clientY + 15}px`;
   }
 }
 
-function tellToHover() {
-  alert("I know it's a button... but it can't be pressed because I don't know what feature I'd give a button that already does something when you look at it. Look but don't touch, I guess! Sorry, my amazing brother ¯\_(ツ)_/¯");
+function hideImage(buttonElem) {
+  buttonElem.removeEventListener('mousemove', moveImage);
+  if (currentFollower) {
+    currentFollower.remove();
+    currentFollower = null;
+  }
 }
