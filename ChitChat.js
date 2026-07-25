@@ -1,41 +1,70 @@
-let currentFollower = null;
-
-function showImage(buttonElem, imgSrc) {
-  if (currentFollower) {
-    currentFollower.remove();
-  }
-
-  currentFollower = new Image();
-  currentFollower.src = imgSrc;
-  
-  currentFollower.style.position = "fixed"; 
-  currentFollower.style.zIndex = "1000";
-  currentFollower.style.maxHeight = "512px";
-  currentFollower.style.maxWidth = "512px";
-  currentFollower.style.pointerEvents = "none";
-  
-  document.body.appendChild(currentFollower);
-
-  const e = window.event;
-  if (e) {
-    currentFollower.style.left = `${e.clientX + 15}px`;
-    currentFollower.style.top = `${e.clientY + 15}px`;
-  }
-
-  buttonElem.addEventListener('mousemove', moveImage);
+function preload_image('Textures/Assets/480px-Skies_SKY1029.png') {
+  let img = new Image();
+  img.src = im_url;
 }
 
-function moveImage(e) {
-  if (currentFollower) {
-    currentFollower.style.left = `${e.clientX + 15}px`;
-    currentFollower.style.top = `${e.clientY + 15}px`;
-  }
+function preload_image('Textures/Assets/480px-Skies_SKY159.png') {
+  let img = new Image();
+  img.src = im_url;
+
+}function preload_image('Textures/Assets/sunny.gif') {
+  let img = new Image();
+  img.src = im_url;
+
+}function preload_image('Textures/Assets/480px-Skies_SKY16.png') {
+  let img = new Image();
+  img.src = im_url;
+
+}function preload_image('Textures/Animated/D2IRO/NIGHT/SKY8301.png') {
+  let img = new Image();
+  img.src = im_url;
+
+}function preload_image('Textures/Assets/Skies_sky98.png') {
+  let img = new Image();
+  img.src = im_url;
 }
 
-function hideImage(buttonElem) {
-  buttonElem.removeEventListener('mousemove', moveImage);
-  if (currentFollower) {
-    currentFollower.remove();
-    currentFollower = null;
-  }
+function preload_image('Textures/Assets/Skies_SKY99.png') {
+  let img = new Image();
+  img.src = im_url;
+}
+
+function preload_image('Textures/Assets/Skies_SKY12.png') {
+  let img = new Image();
+  img.src = im_url;
+}
+
+function preload_image('Textures/Assets/Skies_SKY20.png') {
+  let img = new Image();
+  img.src = im_url;
+}
+
+function preload_image('Textures/Assets/SKY55.png') {
+  let img = new Image();
+  img.src = im_url;
+}
+
+function preload_image('Textures/Assets/SKY18.png') {
+  let img = new Image();
+  img.src = im_url;
+}
+
+function preload_image('Textures/Assets/SKY30.png') {
+  let img = new Image();
+  img.src = im_url;
+}
+
+function preload_image('Textures/Skies/SKY6278.png') {
+  let img = new Image();
+  img.src = im_url;
+}
+
+function preload_image('Textures/Skies/SKY6288.png') {
+  let img = new Image();
+  img.src = im_url;
+}
+
+function preload_image('Textures/Skies/SKY6351.png') {
+  let img = new Image();
+  img.src = im_url;
 }
