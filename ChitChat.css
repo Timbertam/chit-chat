@@ -12,7 +12,7 @@
 
 body {
     background-image: url(Textures/Assets/stars.gif);
-    background-size: cover;
+    background-size: contain;
     background-repeat: repeat;
 }
 

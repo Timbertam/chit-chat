@@ -1,0 +1,60 @@
+body{
+    font-family: 'Rubik Dirt';
+    color: rgb(236, 197, 152);
+    font-size: 28px;
+    background-image: url(Textures/Assets/hilldark.gif);
+    background-size: cover;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+td{
+    font-family: 'Rubik Dirt';
+    border: 2px solid #a61d1d;
+    padding: 10px;
+    color: rgb(255, 234, 1);
+    font-size: 28px;
+}
+
+tr {
+    border: 2px solid #a61d1d;
+}
+
+tr:hover {
+    transition: 0.25s;
+    background-color: rgb(74, 8, 8);
+}
+
+th{
+    border: 2px solid #a61d1d;
+    font-family: 'Special Elite';
+    font-size: 48px;
+    padding: 10px;
+    background-color: rgb(0, 25, 109);
+    color: rgb(255, 225, 0);
+}
+
+button:hover {
+    background: #db1d1d;
+    transform: scale(1.1);
+}
+
+button{
+    background-image: linear-gradient(to bottom, rgb(143, 20, 20), rgb(58, 7, 7));
+    height: 48px;
+    min-width: 76px;
+    transition: 0.3s;
+    padding: 10px;
+    font-family: 'Rubik Dirt';
+    font-size: 28px;
+    background-color: #db1d1d;
+    color: rgb(255, 200, 0);
+}
+
+h1 {
+    text-align: center;
+}
