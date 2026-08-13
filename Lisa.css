@@ -1,0 +1,55 @@
+body{
+    font-family: 'Tiny5';
+    color: white;
+    font-size: 28px;
+    background-image: url(Textures/Assets/fcity.gif);
+    background-size: contain;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+td{
+    font-family: 'Tiny5';
+    border: 2px solid #ddd;
+    padding: 13px;
+    color: white;
+    font-size: 28px;
+}
+
+tr {
+    border: 2px solid #ddd;
+}
+
+tr:hover {
+    transition: 0.25s;
+    background-color: #626a64;
+}
+
+th{
+    border: 2px solid #ddd;
+    font-family: 'Tiny5';
+    font-size: 48px;
+    background-color: rgb(16, 16, 16);
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    background: rgb(58, 58, 58);
+    transform: scale(1.1);
+}
+
+button{
+    background-image: linear-gradient(to bottom, #8b8b8b, #232323);
+    height: 48px;
+    min-width: 76px;
+    transition: 0.3s;
+    padding: 5px;
+    font-family: 'Tiny5';
+    font-size: 28px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+}

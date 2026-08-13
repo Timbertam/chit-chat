@@ -1,0 +1,45 @@
+//UNDERTALE AND DELTARNE DELTARUNE SONGGG WOOHOOOO LOOK AT SONIC HE IS SUPER COOL
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "autumn")
+print("Variant: forest")
+S_StartSound(mo, sfx_dsitem)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6328)
+COM_BufAddText(mo,"tunes AUTUM")
+P_SwitchWeather(4)
+P_FadeLight(65535, 165, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "autumnforest")
+S_StartSound(mo, sfx_dsitem)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6450)
+COM_BufAddText(mo,"tunes AUTUM")
+P_SwitchWeather(4)
+P_FadeLight(65535, 180, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "autumnforestnight")
+S_StartSound(mo, sfx_dsitem)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6449)
+COM_BufAddText(mo,"tunes AUTUM")
+P_SwitchWeather(4)
+P_FadeLight(65535, 155, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "studiopolis")
+S_StartSound(mo, sfx_itemup)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6405)
+COM_BufAddText(mo,"tunes CYBERC")
+P_SwitchWeather(0)
+P_FadeLight(65535, 200, 2)
+end
+end)

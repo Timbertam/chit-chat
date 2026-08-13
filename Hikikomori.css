@@ -1,0 +1,53 @@
+body{
+    background-image: url(/home/timbertam/Documents/chit-chat/Textures/Skies/SKY6341.png);
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+td {
+    font-family: 'Tiny5';
+    border: 3px solid #55101e;
+    padding: 10px;
+    color: #deb2e7;
+    font-size: 28px;
+}
+
+tr {
+    border: 3px solid #55101e;
+}
+
+tr:hover {
+    transition: 0.25s;
+    background-color: slateblue;
+}
+
+th {
+    border: 3px solid #55101e;
+    font-family: 'Tiny5';
+    font-size: 48px;
+    background-color: #181c29;
+    color: #deb2e7;
+    padding: 10px;
+}
+
+button:hover {
+    background: #a166a1;
+    transform: scale(1.1);
+}
+
+button{
+    background-image: linear-gradient(to bottom, #101410, #181c29);
+    height: 48px;
+    min-width: 76px;
+    transition: 0.3s;
+    padding: 10px;
+    font-family: 'Tiny5';
+    font-size: 20px;
+    background-color: #a166a1;
+    color: #deb2e7;
+}
+

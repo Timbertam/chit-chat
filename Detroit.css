@@ -1,0 +1,54 @@
+body{
+    background-image: url(/home/timbertam/Documents/chit-chat/Textures/Assets/robocop.png);
+    background-size: cover;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+td {
+    font-family: 'Tiny5';
+    border: 2px solid #ddd;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+}
+
+tr {
+    border: 2px solid #ddd;
+}
+
+tr:hover {
+    transition: 0.25s;
+    background-color: slateblue;
+}
+
+th {
+    border: 2px solid #ddd;
+    font-family: 'Tiny5';
+    font-size: 48px;
+    background-color: rgb(0, 153, 255);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+button:hover {
+    background: rgb(0, 89, 255);
+    transform: scale(1.1);
+}
+
+button{
+    background-image: linear-gradient(to bottom, rgb(0, 251, 255), rgb(0, 153, 255));
+    height: 48px;
+    min-width: 76px;
+    transition: 0.3s;
+    padding: 10px;
+    font-family: 'Tiny5';
+    font-size: 20px;
+    background-color: rgb(0, 89, 255);
+    color: rgb(255, 255, 255);
+}
+
