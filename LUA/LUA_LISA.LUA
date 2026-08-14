@@ -69,7 +69,7 @@ end)
 
 addHook("PlayerMsg", function(player, msgtype, target, msg)
 if (msg == "band")
-print("variants: sunset,jungle")
+print("variants: sunset,night")
 S_StartSound(mo, sfx_dsitem)
 P_SetSkyboxMobj(mo)
 P_SetupLevelSky(1)
