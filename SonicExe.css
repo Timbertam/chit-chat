@@ -3,7 +3,7 @@ body{
     color: rgb(236, 197, 152);
     font-size: 28px;
     background-image: url(Textures/Assets/hilldark.gif);
-    background-size: cover;
+    background-size: contain;
 }
 
 table {

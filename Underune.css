@@ -1,0 +1,54 @@
+body{
+    background-image: url(Textures/Skies/SKY6295.png);
+    background-size: cover;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+td {
+    font-family: 'Tiny5';
+    border: 2px solid #ddd;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+}
+
+tr {
+    border: 2px solid #ddd;
+}
+
+tr:hover {
+    transition: 0.25s;
+    background-color: rgb(76, 0, 0);
+}
+
+th {
+    border: 2px solid #ddd;
+    font-family: 'Tiny5';
+    font-size: 48px;
+    background-color: #f60000;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+button:hover {
+    background: #f60000;
+    transform: scale(1.1);
+}
+
+button{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
+    height: 48px;
+    min-width: 76px;
+    transition: 0.3s;
+    padding: 10px;
+    font-family: 'Tiny5';
+    font-size: 20px;
+    background-color: #f60000;
+    color: rgb(255, 255, 255);
+}
+

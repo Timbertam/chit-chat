@@ -23,7 +23,7 @@ tr {
 
 tr:hover {
     transition: 0.25s;
-    background-color: slateblue;
+    background-color: rgb(6, 0, 44);
 }
 
 th {
