@@ -279,6 +279,21 @@ addHook("PlayerMsg", function(player, msgtype, target, msg)
 if (msg == "doodle")
 S_StartSound(mo, sfx_dsitem)
 COM_BufAddText(mo,"tunes DOODLE")
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6452)
+P_SwitchWeather(0)
+P_FadeLight(65535, 200, 2)
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "DOODLE")
+S_StartSound(mo, sfx_dsecho)
+COM_BufAddText(mo,"tunes GERSON")
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6230)
+P_SwitchWeather(0)
+P_FadeLight(65535, 160, 2)
 end
 end)
 
@@ -290,16 +305,24 @@ end
 end)
 
 addHook("PlayerMsg", function(player, msgtype, target, msg)
-if (msg == "roxy")
+if (msg == "roxy") or (msg == "rox") or (msg == "roxanne")
 S_StartSound(mo, sfx_dsitem)
 COM_BufAddText(mo,"tunes ROXANE")
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(7874)
+P_SwitchWeather(0)
+P_FadeLight(65535, 160, 2)
 end
 end)
 
 addHook("PlayerMsg", function(player, msgtype, target, msg)
-if (msg == "ROXY")
-S_StartSound(mo, sfx_dsitem)
+if (msg == "ROXY") or (msg == "ROX") or (msg == "ROXANNE")
+S_StartSound(mo, sfx_dsecho)
 COM_BufAddText(mo,"tunes VSROXY")
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(9005)
+P_SwitchWeather(0)
+P_FadeLight(65535, 165, 2)
 end
 end)
 
@@ -320,22 +343,26 @@ end)
 addHook("PlayerMsg", function(player, msgtype, target, msg)
 if (msg == "GEMMY")
 S_StartSound(mo, sfx_dsitem)
-COM_BufAddText(mo,"tunes GEMMAG")
+COM_BufAddText(mo,"tunes GEMMYG")
 end
 end)
 
 addHook("PlayerMsg", function(player, msgtype, target, msg)
 if (msg == "gemma")
 S_StartSound(mo, sfx_dsitem)
-COM_BufAddText(mo,"tunes GEMMAT")
+COM_BufAddText(mo,"tunes GEMMAC")
 end
 end)
 
 
 addHook("PlayerMsg", function(player, msgtype, target, msg)
 if (msg == "GEMMA")
-S_StartSound(mo, sfx_dsitem)
+S_StartSound(mo, sfx_dsecho)
 COM_BufAddText(mo,"tunes VSGEMM")
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6315)
+P_SwitchWeather(0)
+P_FadeLight(65535, 155, 2)
 end
 end)
 
@@ -348,7 +375,19 @@ end)
 
 addHook("PlayerMsg", function(player, msgtype, target, msg)
 if (msg == "JESSICA")
-S_StartSound(mo, sfx_dsitem)
+S_StartSound(mo, sfx_dsecho)
 COM_BufAddText(mo,"tunes VSJESS")
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "save me")
+COM_BufAddText(mo,"tunes MISPLC")
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "[D]")
+COM_BufAddText(mo,"tunes MELISA")
 end
 end)

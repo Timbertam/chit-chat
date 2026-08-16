@@ -1,0 +1,72 @@
+@media only screen and (max-width: 600px) {
+  /* Responsive styles for small screens */
+  table {
+    width: 100%;
+  }
+  th,
+  td {
+    display: block;
+    width: 100%;
+  }
+}
+
+body {
+    background-image: url(Textures/Assets/stars.gif);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+td {
+    font-family: 'Jersey 15';
+    border: 2px solid #ddd;
+    padding: 10px;
+    color: cyan;
+    font-size: 28px;
+}
+
+tr {
+    border: 2px solid #ddd;
+}
+
+tr:hover {
+    transition: 0.25s;
+    background-color: indigo;
+}
+
+th {
+    border: 2px solid #ddd;
+    font-family: 'Jersey 15';
+    font-size: 48px;
+    background-color: blueviolet;
+    color: cyan;
+    padding: 10px;
+}
+
+button:hover {
+    background: fuchsia;
+    transform: scale(1.1);
+}
+
+button {
+    background-image: linear-gradient(to bottom, cyan, magenta);
+    min-width: 76px;
+    transition: 0.3s;
+    padding-right: 10px;
+    padding: 5px;
+    font-family: 'Jersey 15';
+    font-size: 28px;
+    background-color: blueviolet;
+    color: black;
+}#follower { 
+  position: fixed; 
+  width: 100px; 
+  pointer-events: none; /* Prevents the image from blocking mouse events */
+  display: none; 
+}
+

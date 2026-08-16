@@ -1,29 +1,49 @@
 <!--  TEMPLATE FOR ONE OF THE ONE BILLION ENTRIES BELOW! HERE WE GO :D
   <tr>
-  <tr>
     <td>chit</td>
     <td>
       <button
-        id="imageLarge"
-        onmouseover="showImage(this,'SKY.THUMBNAIL')"
+        onmouseover="showImage(this,'')"
         onmouseout="hideImage(this)"
         onclick="tellToHover()">
-        SKIES.LMP
+        [D]
       </button></td>
-    <td>SONG.MP3</td>
+    <td><audio controls>
+  <source src="" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
     <td>ORIGIN</td>
   </tr>
 -->
+
+<!-- TODO
+  POWERUPS
+  EXTRASHIELDS
+  STAGECLEAR
+  WEATHER
+  BACKGROUNDS
+
+  BIOME
+  WEST
+  KINGDOM
+  INFERNO
+  CURSED
+-->
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chit-Chat</title>
-  <link href='https://fonts.googleapis.com/css?family=Pixelify Sans' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="Misc.css">
+  <link rel="stylesheet" href="https://datatables.net"/>
 </head>
-  <script src="HoveringPicsAhuhuhuy.js" type="text/javascript"></script>
+<body>
+<div class="content">
 <table>
   <!-- START OF THIS TABLE -->
   <tr>
@@ -32,40 +52,836 @@
     <th>Song</th>
     <th>Origin</th>
   </tr>
+  </thead>
+  <script src="HoveringPicsAhuhuhuy.js" type="text/javascript"></script>
+  <script src="sw.js" type="text/javascript"></script>
   <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tbody>
   <tr>
-    <td>animal</td>
+    <td>day</td>
     <td>
       <button
-        id="imageLarge"
-        onmouseover="showImage(this,'https://wiki.srb2.org/wiki/File:Skies_sky98.png')"
+        onmouseover="showImage(this,'Textures/Assets/480px-Skies_SKY1029.png')"
         onmouseout="hideImage(this)"
         onclick="tellToHover()">
-        SKY98
+        [D]
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/480px-Skies_SKY16.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        rocky
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/sunny.gif')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        sun
       </button></td>
     <td><audio controls>
-  <source src="https://nu.vgmtreasurechest.com/soundtracks/hotline-miami/hisoswfm/20.%20Inner%20Animal.mp3" type="audio/ogg">
+  <source src="Music/O_FRAVEN.mp3" type="audio/ogg">
 This browser does not support the audio element wahhh :C
 </audio></td>
-    <td>HLM 1</td>
+    <td>Stardew Valley: Fall (Raven's Descent)</td>
   </tr>
   <!-- START OF THIS CHIT-CHAT ENTRY -->
   <tr>
-    <td>massacre</td>
+    <td>sunset</td>
     <td>
       <button
-        id="imageLarge"
-        onmouseover="showImage(this,'Textures/Skies/SKY6321.png')"
+        onmouseover="showImage(this,'Textures/Assets/480px-Skies_SKY159.png')"
         onmouseout="hideImage(this)"
         onclick="tellToHover()">
-        SKY6295
+        [D]
       </button></td>
     <td><audio controls>
-  <source src="https://jetta.vgmtreasurechest.com/soundtracks/hotline-miami-2-wrong-number/vwvogpfh/27.%20We%27re%20Sorry.mp3" type="audio/ogg">
+  <source src="Music/O_SUNBCH.mp3" type="audio/ogg">
 This browser does not support the audio element :C
 </audio></td>
-    <td>HLM 2</td>
+    <td>mxpheebz: The Beach</td>
+  </tr>
+  <tr>
+    <td>night</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Animated/D2IRO/NIGHT/SKY8301.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_NIGHT.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Unleashed: Spagonia (Night)</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>midnight</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_sky98.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_MIDNA.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Unleashed: Dragon Road (Night)</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>MIDNIGHT</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY99.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_MIDNIGHT.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Unleashed: Boss Battle (Night)</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>rain</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY12.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY20.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        night
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_RAIN.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Stardew Valley: JunimoKart (Glowshroom Grotto)</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>downpour</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY20.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_AQUA.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Adventure 2: Aquatic Mine</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>storm</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY20.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY20.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        night
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_SAFZON.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Dying Light - The Beast: Safe Zone</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>snow</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/SKY55.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY20.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        night
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_CONGEL.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>SRB2 Mystic Realm: Midnight Freeze Zone</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>blizzard</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/SKY18.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY20.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        night
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_BLIZZ.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Adventure 1: Limestone Cave (IceCap)</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>christmas</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/SKY30.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6278.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        night
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_CRIMA.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Donkey Kong Country: Ice Cave Chant</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>drama</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6288.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_SPEC7.ogg" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>SRB2: Egg Satellite Zone</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>ANGRY</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY27.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_VSAGZ.ogg" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>SRB2: VS. Aerial Garden Boss (Unused)</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+  <tr>
+    <td>nuke</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6351.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_VIETN.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Rising Storm 2 - Vietnam: Descent (VietDoom)</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>cave</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/SKY7.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_CAVE.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Lisa the Painful: Deep Inside Me</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>jungle</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/SKY64.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_TREES1.ogg" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic After the Sequel: Foliage Furnace Act 1</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>JUNGLE</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/SKY64.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_TWDBAC.ogg" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>The Walking Dead: Don't Look Back</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>forest</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6450OG.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_FP2RM.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Freedom Planet 2: Radiant Meadows (Remixed)</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>FOREST</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6449.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_OBSCUR.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Obscure 2: Forest Hospital</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>arid</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/360px-SKY13.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6286.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        sunset
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/480px-Skies_SKY101.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        night
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_ACZ1.ogg" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>SRB2: Arid Canyon Act 1 (2.2+)</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>sand</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/sand.gif')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/NativeAmerican.ogg" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>SurvivalCraft 2: Native American</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>SAND</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6268.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/480px-Skies_SKY15.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        SUNSET
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6419.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        NIGHT
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_MEXIC1.ogg" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>SRB2: Arid Canyon Act 1 (2.1)</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>cha <br> rush</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/chacha.gif')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_CHACHA.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Rush: Ska Cha Cha</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>rocket <br> jet</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6250.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_ROCKET.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Rush: Jeh Jeh Rocket</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>back</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6355.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_BACK.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Rush: Back 2 Back</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>blaze</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6291.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_BLAZE.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Rush: Vela Nova (Vs.Blaze)</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>right <br> there</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6291.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_RIGHT.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Rush: Right There, Ride On!</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>versus <br> vs</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6294.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_VERSUS.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Adventure 2: Sonic Vs. Shadow!</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>strategy</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6294.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_STRATEGY.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Adventure 2: Strategy</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>black <br> noises</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6288.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_BLACK.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Adventure 2: Black Noises</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>base</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/240px-Skies_SKY300.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_BASE.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Adventure 2: The Base</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>adventure</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/240px-SKY29.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_GROOVY.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Adventure 2: In The Groove</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>pumpkin</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6373.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_PUMPHL.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Adventure 2: Pumpkin Hill</td>
+    </tr> 
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>search</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/black.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_SEARCH.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>.flow: Heartbeat</td>
+    </tr> 
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>breathe</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/black.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_CLOSE.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>IMSCARED - BREATHE</td>
+    </tr> 
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>doll</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/240px-SKY54.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_DOLL.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>𝒞𝒶𝓃 𝒴𝑜𝓊 𝐹𝑒𝑒𝓁 𝒯𝒽𝑒 𝒮𝓊𝓃𝓈𝒽𝒾𝓃𝑒 (?)</td>
+    </tr> 
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>weed</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/240px-SKY50.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_WEED.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Duster - Constellations</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>trippy</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/trippy.gif')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_MP_0RI.ogg" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>SRB2 - Misc Multiplayer Music 5</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>coke</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_SKY1025.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_COKE.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>EX-LYD: Pink Sand</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>grind</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/Skies_sky98.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_WORK.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Duster: Me and the Birds</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>studiopolis</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6405.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_CYBERC.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Deltarune Chapter 2: Cyber City</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>alleys</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6409.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_ALLEYS.ogg" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Territory War 3: Murder at Midnight</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>starfall</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY9292.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_STARFAL.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Sonic Frontiers: Starfall Island</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>edgy</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/d64.gif')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_OWEDGE.ogg" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>Linkin' Park: One Step Closer</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>MERICA</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6330.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_USA.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>USAUSAUSAUSAUSASASUASA</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>blockland</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Skies/SKY6330.png')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_BLOCK.mp3" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>в𝐋𝓸℃Ｋ𝐥Ⓐⓝ𝕕</td>
+  </tr>
+  <!-- START OF THIS CHIT-CHAT ENTRY -->
+  <tr>
+    <td>sandstorm</td>
+    <td>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/sandstorm.gif')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        [D]
+      </button>
+      <button
+        onmouseover="showImage(this,'Textures/Assets/sandnight.gif')"
+        onmouseout="hideImage(this)"
+        onclick="tellToHover()">
+        night
+      </button></td>
+    <td><audio controls>
+  <source src="Music/O_DFMINT.ogg" type="audio/ogg">
+This browser does not support the audio element :C
+</audio></td>
+    <td>.flow: Psychedelic Streets</td>
   </tr>
 </table>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
 </html>
