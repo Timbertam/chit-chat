@@ -808,6 +808,17 @@ P_FadeLight(65535, 20, 2)
 end
 end)
 
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "sad")
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(6207)
+P_DoPlayerPain(player, mo)
+COM_BufAddText(mo,"tunes CORPSES")
+P_SwitchWeather(4)
+P_FadeLight(65535, 150, 2)
+end
+end)
+
 //Tails Doll Stuff
 addHook("PlayerMsg", function(player, msgtype, target, msg)
 if (msg == "search")
