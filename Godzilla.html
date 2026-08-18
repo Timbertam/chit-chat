@@ -1,31 +1,27 @@
-<!--  TEMPLATE FOR ONE OF THE ONE BILLION ENTRIES BELOW! HERE WE GO :D
-  <tr>
-  <tr>
-    <td>chit</td>
-    <td>
-      <button
-        id="imageLarge"
-        onmouseover="showImage(this,'SKY.THUMBNAIL')"
-        onmouseout="hideImage(this)"
-        onclick="tellToHover()">
-        SKIES.LMP
-      </button></td>
-    <td>SONG.MP3</td>
-    <td>ORIGIN</td>
-  </tr>
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zenith</title>
+    <title>STILL THE BEST (1993)</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="Godzilla.css">
 </head>
   <script src="HoveringPicsAhuhuhuy.js" type="text/javascript"></script>
+  <!-- IMPORTANT! AUTOPAUSER ;D -->
+  <script>
+  document.addEventListener('play', function (event) {
+    const allAudios = document.querySelectorAll('audio');
+    
+    allAudios.forEach(function (audio) {
+      if (audio !== event.target) {
+        audio.pause();
+      }
+    });
+  }, true);
+</script>
 <table>
   <!-- START OF THIS TABLE -->
   <tr>
