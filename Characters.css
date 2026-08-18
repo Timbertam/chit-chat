@@ -1,6 +1,7 @@
 body{
     background-image: url(Textures/Skies/SKY6459.png);
     background-size: cover;
+    color: rgb(18, 18, 18);
 }
 
 table {
