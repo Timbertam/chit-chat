@@ -48,3 +48,7 @@ img:hover {
     max-width: 100%;
   }
 }
+
+.unfinished{
+  filter: grayscale(100%);
+}
