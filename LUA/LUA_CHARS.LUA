@@ -190,7 +190,7 @@ S_StartSound(mo, sfx_spsmsh)
 P_SetSkyboxMobj(mo)
 P_SetupLevelSky(8149)
 P_ElementalFire(player,true)
-COM_BufAddText(mo,"tunes FANG")
+COM_BufAddText(mo,"tunes DFDASH")
 P_SwitchWeather(4)
 P_FadeLight(65535, 170, 2)
 end
@@ -389,5 +389,24 @@ end)
 addHook("PlayerMsg", function(player, msgtype, target, msg)
 if (msg == "[D]")
 COM_BufAddText(mo,"tunes MELISA")
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "trip")
+S_StartSound(mo, sfx_dsitem)
+COM_BufAddText(mo,"tunes DFTRIP")
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "collector")
+print("variants: ")
+S_StartSound(mo, sfx_dsitem)
+P_SetSkyboxMobj(mo)
+P_SetupLevelSky(1)
+COM_BufAddText(mo,"tunes DFSTAR")
+P_SwitchWeather(4)
+P_FadeLight(65535, 190, 2)
 end
 end)

@@ -3004,7 +3004,7 @@ end
 end)
 
 addHook("PlayerMsg", function(player, msgtype, target, msg)
-if (msg == "666")
+if (msg == "buddy") or (msg == "deluxe")
 S_StartSound(mo, sfx_dsitem)
 P_SetSkyboxMobj(mo)
 P_SetupLevelSky(6323)
