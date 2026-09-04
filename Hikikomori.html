@@ -121,17 +121,6 @@ O_DFCHON: ChingChong (Factory, f-gang, gross, tunnels) -->
     });
   }, true);
 </script>
-<!-- IMPORTANT! AUTOLOOPER!!! ;D -->
-<script>
-  const loopAllAudio = () => {
-    document.querySelectorAll('audio').forEach(audio => audio.loop = true);
-  };
-  document.addEventListener('DOMContentLoaded', loopAllAudio);
-  document.addEventListener('play', (e) => {
-    if (e.target.tagName === 'AUDIO') e.target.loop = true;
-  }, true);
-</script>
-
 <table>
   <!-- START OF THIS TABLE -->
   <tr>
@@ -2004,7 +1993,7 @@ This browser does not support the audio element :C
         comet
       </button>
       <button
-        onmouseover="showImage(this,'pTextures/Skies/SKY6462.pngth')"
+        onmouseover="showImage(this,'Textures/Skies/SKY6462.png')"
         onmouseout="hideImage(this)"
         data-text="bathroomspace"
         onclick="navigator.clipboard.writeText(this.dataset.text); new Audio('SFX/sfx_dssele.ogg').play(); let old=this.innerText; this.innerText='COPIED! ;D'; setTimeout(() => this.innerText=old, 1000)">
