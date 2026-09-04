@@ -123,11 +123,12 @@ O_DFCHON: ChingChong (Factory, f-gang, gross, tunnels) -->
 </script>
 <!-- IMPORTANT! AUTOLOOPER!!! ;D -->
 <script>
-  document.addEventListener('ended', function(event) {
-    if (event.target.tagName === 'AUDIO') {
-      event.target.currentTime = 0;
-      event.target.play();
-    }
+  const loopAllAudio = () => {
+    document.querySelectorAll('audio').forEach(audio => audio.loop = true);
+  };
+  document.addEventListener('DOMContentLoaded', loopAllAudio);
+  document.addEventListener('play', (e) => {
+    if (e.target.tagName === 'AUDIO') e.target.loop = true;
   }, true);
 </script>
 
