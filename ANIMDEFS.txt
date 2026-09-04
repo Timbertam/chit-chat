@@ -31,3 +31,4 @@ TEXTURE	SKY8253	Range	SKY8284 Tics 2 //Doom 2 in City Only's "SANDTROPOLIS" Sky 
 TEXTURE	SKY8285	Range	SKY8300 Tics 2 //Doom 2 in City Only's "DAY" Sky [16F]
 TEXTURE	SKY8301	Range	SKY8332 Tics 2 //Doom 2 in Rural Only's "NIGHT" Sky [32F]
 TEXTURE	SKY8333	Range	SKY8364 Tics 2 //Doom 2 in Rural Only's "STARLO SUNSET" Sky [32F]
+TEXTURE	SKY8365	Range	SKY8396 Tics 2 //Doom 2 in City Only's "UFO" Sky [32F]
