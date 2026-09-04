@@ -38,12 +38,12 @@
         id="imageLarge"
         onmouseover="showImage(this,'Textures/Skies/SKY6459.png')"
         onmouseout="hideImage(this)"
-        onclick="tellToHover()">
+        data-text="SORRYIFORGORTOMAKETHISCOPYABLEAHUHUHUY"
+        onclick="navigator.clipboard.writeText(this.dataset.text); new Audio('SFX/sfx_dssele.ogg').play(); let old=this.innerText; this.innerText='COPIED! ;D'; setTimeout(() => this.innerText=old, 1000)">
         [D]
       </button></td>
     <td><audio controls>
   <source src="Music/O_LITONE.mp3" type="audio/ogg">
-This browser does not support the audio element wahhh :C
 </audio></td>
     <td>Little One</td>
   </tr>

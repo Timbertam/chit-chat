@@ -97,6 +97,7 @@ freeslot("sfx_dsnuke")
 freeslot("sfx_dsnuns")
 freeslot("sfx_dsslop")
 freeslot("sfx_dslewd")
+freeslot("sfx_dssele")
 
 //FIRST, THE ROUGE SFX'S THAT STOP EVERYTHING! NO, NOT JINGLES, SFX!
 addHook("PlayerMsg", function(player, msgtype, target, msg)
@@ -252,6 +253,11 @@ S_StopMusic(mo)
 end
 end)
 
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "SORRYIFORGORTOMAKETHISCOPYABLEAHUHUHUY")
+S_StartSound(mo, sfx_dsbool)
+end
+end)
 
 addHook("PlayerMsg", function(player, msgtype, target, msg)
 if (msg == "egg")
@@ -630,3 +636,4 @@ S_StartSound(mo, sfx_dspkup)
 S_StopMusic(mo)
 end
 end)
+
