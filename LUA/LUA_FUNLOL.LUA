@@ -19,7 +19,7 @@ end)
 
 addHook("PlayerMsg", function(player, msgtype, target, msg)
 if (msg == "sh2")
-print("shield2/wind: this shield grants you a double jump! also works when falling ;)")
+print("shield2/tornado: this shield grants you a double jump! also works when falling ;)")
 end
 end)
 
@@ -104,7 +104,7 @@ end
 end)
 
 addHook("PlayerMsg", function(player, msgtype, target, msg)
-if (msg == "shield2" or msg == "wind")
+if (msg == "shield2" or msg == "tornado")
 S_StartSound(mo, sfx_wirlsg)
 P_SwitchShield(player, 2)
 end

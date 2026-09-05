@@ -118,3 +118,27 @@ if (msg == "found")
 COM_BufAddText(mo,"tunes FOUNDY")
 end
 end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "wind")
+COM_BufAddText(mo,"tunes PWDWIN")
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "WIND")
+COM_BufAddText(mo,"tunes WINDOR")
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "music")
+COM_BufAddText(mo,"tunes MUSBOX")
+end
+end)
+
+addHook("PlayerMsg", function(player, msgtype, target, msg)
+if (msg == "bells")
+COM_BufAddText(mo,"tunes PBELLS")
+end
+end)
