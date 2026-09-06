@@ -16,7 +16,7 @@ TEXTURE	SKY4512	Range	SKY4522	Tics 8 //Cut Surge BG! Maybe repurposeable? [10F]
 TEXTURE	SKY4523	Range	SKY4622	Tics 2 //Doom 64's BEAUTIFUL fire animation. [99F]
 TEXTURE	SKY4623	Range	SKY4624	Tics 12 //Homestuck's LOTHAC.
 TEXTURE	SKY4625	Range	SKY4627	Tics 8 //LEWD LEAF LANDDD YESSS [3F]
-TEXTURE	SKY8001	Range	SKY8003	Tics 8 //Mario Underground Caves BG! [3F]
+TEXTURE	SKY8001	Range	SKY8003	Tics 5 //Mario Underground Caves BG! [3F]
 TEXTURE	SKY8004	Range	SKY8016 Tics 8 //Trippy AF ULDC BG! Like Sonic CD's falopa BG! [12F]
 TEXTURE SKY8018 Range   SKY8049 Tics 4 //Doom 2 in Rural Only's Red Sky [32F]
 TEXTURE SKY8050 Range   SKY8081 Tics 4 //Doom 2 in City Only's "Life" Sky [32F]
